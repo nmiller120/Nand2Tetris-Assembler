@@ -8,9 +8,9 @@ The Hack CPU is a 16 bit CPU which contains only 3 data registers named D, A, an
 
 ## Assembly Language 
 
-The Hack assembly language features 2 types of instructions, A-instructions and C-instructions. A-instructions take the form `@value`, where value can refer to an integer literal or a label. The A-insruction writes specifically to the A register in the CPU. A C-instruction is a computation instruction. The C-instruction is of the form `dest = comp; jump`, where dest represents the destination register(s), comp represents the computation to be performed, and jump represents a conditional jump statement. The C-instruction can include a dest and a comp, a comp and a jump, or all three. 
+The Hack assembly language features 2 types of instructions, A-instructions and C-instructions. A-instructions take the form `@value`, where *value* can refer to an integer literal or a label. The A-insruction writes specifically to the A register in the CPU. A C-instruction is a computation instruction. The C-instruction is of the form `dest = comp; jump`, where *dest* represents the destination register(s), *comp* represents the computation to be performed, and *jump* represents a conditional jump statement. The C-instruction can include a *dest* and a *comp*, a *comp* and a *jump*, or all three combined. 
 
-Another feature of the language is the label, this takes the form `(myLabel)`. Where myLabel is a string of characters. These are markers to the assembler that we want to return to this instruction at some point in time. A jump can be performed using a label by following an A-instruction refering to a label with a jump statement. So for example the following code would perform a jump to the label `myLabel`.
+Another feature of the language is the label, this takes the form `(myLabel)`. Where *myLabel* is a string of characters. These are markers to the assembler that we want to return to this instruction at some point in time. A jump can be performed using a label by following an A-instruction refering to a label with a jump statement. So for example the following code would perform a jump to the label `myLabel`.
 
 `@myLabel // write the value of myLabel to register A`
 
