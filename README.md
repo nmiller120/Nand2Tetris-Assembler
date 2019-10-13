@@ -1,6 +1,6 @@
 # Nand2Tetris-Assembler
 
-This program translates assembly code to machine instructions for the Hack computer architecture. This project was completed as part of the Nand2Tetris course. This is a free online project based course where the student starts with a fundamental element, the Nand gate, and uses the Nand gate to build a computer architecture. Once the computer itself is built the student then goes on to design an assembler, VM translator, compiler, and operating system for the machine. This project is completed in Chapter 7 of the course. To better understand the source code for this project, some explaination of the hack computer and the assembly language used to program it is provided below.  
+This program translates assembly code to machine instructions for the Hack computer architecture. This project was completed as part of the Nand2Tetris course. This is a free online project based course where the student starts with a fundamental element, the Nand gate, and uses the Nand gate to build a computer architecture. Once the computer itself is built the student then goes on to design an assembler, VM translator, compiler, and operating system for the machine. This project is completed in Chapter 6 of the course. To better understand the source code for this project, some explaination of the hack computer and the assembly language used to program it is provided below.  
 
 ## Computer Architecture
 
